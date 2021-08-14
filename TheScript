@@ -139,7 +139,7 @@ local function BSEFCT_fake_script() -- HexGui.Script
 	
 	--Hide
 	game:GetService("UserInputService").InputBegan:Connect(function(input, gameProcessedEvent)
-	    if (input.KeyCode == Enum.KeyCode.D and game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.LeftControl)) or (input.KeyCode == Enum.KeyCode.LeftControl and game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.D)) then
+	    if (input.KeyCode == Enum.KeyCode.P and game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.LeftControl)) or (input.KeyCode == Enum.KeyCode.LeftControl and game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.P)) then
 		    Frame1.Visible = not Frame1.Visible
 	    end
     end)
